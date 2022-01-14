@@ -1,0 +1,79 @@
+/* my */
+
+/* 4k devices*/
+@media (min-width: 1441px) and (max-width: 2600px) {
+	body{
+		background: darkgreen;
+	}
+	h1 {
+		color: darkblue;
+		font-size: 70px;
+		background: #121FCF;
+		background: -webkit-linear-gradient(to top, #121FCF 0%, #CF1512 100%);
+		background: -moz-linear-gradient(to top, #121FCF 0%, #CF1512 100%);
+		background: linear-gradient(to top, #121FCF 0%, #CF1512 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		font-weight: 900px;
+	}
+}
+/* 1440 and > devices*/
+@media (min-width: 1025px) and (max-width: 1440px) {
+	body{
+		background: green;
+	}
+	h1 {
+		color: blue;
+		font-size: 60px;
+	}
+}
+/* 1024 and > devices*/
+@media (min-width: 	769px) and (max-width: 1024px) {
+	body{
+		background: lightgreen;
+	}
+	h1 {
+		color: darkblue;
+		font-size: 50px;
+	}
+}
+/* 768 and > devices*/
+@media (min-width: 426px) and (max-width: 768px) {
+	body{
+		background: lightblue;
+	}
+	h1 {
+		color: darkgreen;
+		font-size: 40px;
+	}
+}
+/* 425 and > devices*/
+@media (min-width: 376px) and (max-width: 425px) {
+	body{
+		background: skyblue;
+	}
+	h1 {
+		color: green;
+		font-size: 30px;
+	}
+}
+/*375 and > devices*/
+@media (min-width: 321px) and (max-width: 375px) {
+	body{
+		background: blue;
+	}
+	h1 {
+		color: lightgreen;
+		font-size: 20px;
+	}
+}
+/*320 and > devices*/
+@media (max-width: 320px) {
+	body{
+		background: darkblue;
+	}
+	h1 {
+		color: lightgreen;
+		font-size: 20px;
+	}
+}
